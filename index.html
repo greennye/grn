@@ -12,41 +12,26 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;200;300;400;500;600;700;800;900&display=swap"
       rel="stylesheet"
     />
+
     <style id="lgFormCustomStyles">
       * {
-        font-family: "Roboto";
+        font-family: "Gothic A1";
       }
 
       .stiLL4 {
         margin: 0 auto;
-        min-height: calc(100vh - 120px);
-        width: 100%;
-        border-radius: 40px 40px 0 0;
+        margin-bottom: 60px;
+        width: 75%;
+        border-radius: 10px;
+        border: 1px solid #fff;
         background: #fff;
-      }
-
-      .ui-xs .oa409Q {
-        height: 100%;
-        padding: 56px 42px 56px 42px;
-      }
-
-      /* green border inner */
-      .XomYLU {
-        padding: 12px 20px 32px 20px;
-        border: 1px solid #79be6e;
-        border-radius: 50px;
-      }
-
-      .Aj8xe4,
-      .NEcBhb {
-        display: none;
+        box-shadow: 0px 2px 50px 0px rgba(70, 125, 207, 0.3);
       }
 
       .u1zPlE.u1zPlE.u1zPlE {
-        height: 60px;
         border: 1px solid #000;
         border-radius: 20px;
         background: #fff;
@@ -54,16 +39,10 @@
         --OXBgjw: #000000;
       }
 
-      /*button text positioning*/
-      .DrUa6L .dE9kP9 {
-        padding: 0;
-        line-height: 60px;
-      }
-
       /* button focus */
       .u1zPlE.u1zPlE.u1zPlE.AXL6Qr {
-        background: #e7fbe4;
-        border-color: #79be6e;
+        background: #fff;
+        border-color: #000;
       }
 
       .u1zPlE.u1zPlE.u1zPlE.AXL6Qr::before {
@@ -84,30 +63,29 @@
         display: none;
       }
 
-      /* next step button*/
       .le2xcM.yJAeRs {
         font-size: 22px;
         border-radius: 20px;
         font-weight: 500;
-        background: #79be6e;
-        color: #fff;
+        background: #ffd554;
+        color: #000;
       }
 
       /* links */
       .j7SaMC {
-        --sokbLm: #6aa761;
-        color: #6aa761;
+        --sokbLm: #aae0e7;
+        color: #114ca4;
       }
 
       .j7SaMC:active {
-        color: #6aa761;
+        color: #aae0e7;
       }
 
       /* pop up buttons */
       .ms4iod,
       .ElsyZC {
-        --dRjLwj: #6aa761;
-        --eYnOri: #6aa761;
+        --dRjLwj: #000;
+        --eYnOri: #000;
       }
 
       /* pop up icon */
@@ -127,7 +105,6 @@
       /*button text*/
       .dE9kP9 {
         color: #000;
-        /* font-family: Montserrat; */
         font-size: 16px;
         font-style: normal;
         font-weight: 600;
@@ -140,16 +117,16 @@
       }
 
       .le2xcM:before {
-        background: #6aa761;
+        background: #ffd554;
       }
 
       .le2xcM:after {
-        --HWuQfP: #6aa761;
+        --HWuQfP: #ffd554;
       }
 
       .NR13zI:not(.VAu91x) .M4iQ5B:hover {
         /* input hover */
-        --OXBgjw: #6aa761;
+        --OXBgjw: rgba(26, 197, 255, 0.5);
       }
 
       .pFjoYX {
@@ -162,10 +139,10 @@
 
       @keyframes W7bXXG {
         0% {
-          box-shadow: 0 0 0 1px #6aa761;
+          box-shadow: 0 0 0 1px #ffd554;
         }
         25% {
-          box-shadow: 0 0 0 1px #6aa761;
+          box-shadow: 0 0 0 1px #ffd554;
         }
         100% {
           top: -9px;
@@ -194,10 +171,9 @@
         color: #000;
         text-align: center;
         font-feature-settings: "clig" off, "liga" off;
-        /* font-family: Montserrat; */
         font-size: 20px;
         font-style: normal;
-        font-weight: 500;
+        font-weight: 700;
         line-height: 120%; /* 24px */
         text-transform: capitalize;
       }
@@ -205,63 +181,61 @@
       /* bottom text */
       .lxpNsH:hover {
         transition: 0.125s;
-        --sokbLm: #6aa761;
+        --sokbLm: rgba(26, 197, 255, 0.5);
+      }
+
+      .Aj8xe4,
+      .NEcBhb {
+        display: none;
       }
 
       /* test modal */
       .QeanVk .hieZDw,
       .QeanVk .Zyf8cz {
-      }
-
-      /* background */
-      #pr-lead-form-v3_inner {
-        background: #000;
+        background-color: #fff;
       }
     </style>
   </head>
   <body id="body">
     <style>
+      * {
+        font-family: "Gothic A1", sans-serif;
+      }
+
       :root {
         color-scheme: light; /* both supported */
       }
 
       html,
       body {
-        background-color: #000;
         padding: 0;
         margin: 0;
+        background-color: #000;
       }
 
       header {
-        background: white;
+        background: #000;
       }
-      .wrapper {
-        display: flex;
-        justify-content: space-between;
-        padding: 0 20px 15px 20px;
-      }
+
       .rect {
         box-sizing: border-box;
-        /* position: absolute; */
+        padding-top: 80px;
         z-index: 1000;
-        left: 0;
-        width: 100%;
-        top: 0;
-        height: 120px;
-        background: black;
+        margin: 0 auto;
+        width: 380px;
+        height: 190px;
       }
 
       .title {
-        color: #a7d199;
+        color: #aae0e7;
         text-align: center;
-        /* font-family: Roboto; */
-        font-size: 30px;
+        font-size: 26px;
         font-style: normal;
-        font-weight: 800;
+        font-weight: 900;
         line-height: 140%; /* 116.667% */
         letter-spacing: 1px;
         text-transform: uppercase;
-        width: 290px;
+        width: 100%;
         margin: 0 auto;
       }
 
@@ -270,7 +244,6 @@
       }
 
       .subtitle {
-        /* font-family: "Montserrat"; */
         font-style: normal;
         font-weight: 400;
         font-size: 40px;
@@ -287,7 +260,6 @@
 
       .logo_text {
         padding-left: 8px;
-        /* font-family: "Montserrat"; */
         font-style: normal;
         font-weight: 600;
         font-size: 11px;
@@ -297,8 +269,8 @@
 
       @media only screen and (max-width: 380px) {
         .title {
-          /* font-size: 30px;
-          padding-top: 20px; */
+          font-size: 38px;
+          padding-top: 20px;
         }
         .subtitle {
           font-size: 30px;
@@ -313,7 +285,7 @@
 
     <header>
       <div class="rect">
-        <div class="title">Only a few steps to get a loan!</div>
+        <div class="title">fill out a short form to receive a loan!</div>
       </div>
     </header>
 
@@ -343,7 +315,8 @@
             formElement.firstChild.shadowRoot.getElementById(
               "pr-lead-form-v3_inner"
             );
-              var lastStepCallback = function () {
+
+          var lastStepCallback = function () {
             shadowRootFormElement.innerHTML = `
               <div class="QeanVk kwVnqr EeYA1z" tabindex="1" role="dialog"><div class="ZzsGjx" tabindex="-1"></div><div class="IWXw9V"><div class="J3BtZT"><h4 class="hieZDw">Thanks!</h4><p class="Zyf8cz">We contact you to confirm your request!</p></div><div class="J3BtZT NObY3L"><div class="ibdL9m">
               </div></div></div></div>
@@ -353,8 +326,10 @@
 
         var isRaplaced = false;
 
+        // test
         var afterFormInitCallback2 = function () {
           if (isRaplaced) return;
+          console.log(1);
           var titles = Array.from(
             shadowRootFormElement.querySelectorAll(".DbrWdp") || []
           );
@@ -376,6 +351,7 @@
           childList: true,
           subtree: true,
         });
+        // test
       };
       var observer = new MutationObserver(afterFormInitCallback);
       observer.observe(formElement, {
